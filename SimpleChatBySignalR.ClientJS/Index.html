@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+    <!--<link href="Content/bootstrap.css" rel="stylesheet" />-->
+    <style>
+        .div {
+            width: 50%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div class="form-group">
+            <label for="txt_name">Name</label>
+            <input type="text" class="form-control" id="txt_name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="txt_gname">Group Name</label>
+            <input type="text" class="form-control" id="txt_gname" placeholder="Group Name">
+        </div>
+        <div class="form-group">
+            <label for="txt_message">Message</label>
+            <input type="text" class="form-control" id="txt_message" placeholder="Message">
+        </div>
+        <input type="button" id="btn_send" value="Send" class="btn btn-primary" />
+        <input type="button" id="btn_join" value="Join" class="btn btn-info" />
+        <input type="button" id="btn_gsend" value="Send to group" class="btn btn-light" />
+
+        <div>
+            <ul id="msgs"></ul>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="http://localhost:56273/signalr/hubs"></script>
+    <script>
+        $(document).ready(() => {
+            $.connection.hub.url = "http://localhost:56273/signalr/hubs";
+            //open connection with server
+            $.connection.hub.start();
+            let chatHub = $.connection.chatHub;
+
+            chatHub.client.onMessage = function (name, message) {
+                $('#msgs').append(`<li> ${name}: ${message}</li>`);
+            }
+
+
+            $('#btn_send').click(() => {
+                let name = $('#txt_name').val();
+                let message = $('#txt_message').val();
+                chatHub.server.newMessage(name, message);
+
+            })
+
+            $('#btn_join').click(() => {
+                let gName = $('#txt_gname').val();
+                let name = $('#txt_name').val();
+                chatHub.server.joinGroup(name, gName);
+            })
+
+            $('#btn_gsend').click(() => {
+                let name = $('#txt_name').val();
+                let message = $('#txt_message').val();
+                chatHub.server.newMessage(name, message);
+            })
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\SimpleChatBySignalR.NETClient.exe.config
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\SimpleChatBySignalR.NETClient.exe
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\SimpleChatBySignalR.NETClient.pdb
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.csprojAssemblyReference.cache
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.Form1.resources
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.Properties.Resources.resources
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.csproj.GenerateResource.cache
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.csproj.CoreCompileInputs.cache
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.csproj.CopyComplete
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.exe
+C:\Users\iti\Desktop\signalr lab\SimpleChatBySignalR.Demo\SimpleChatBySignalR.NETClient\obj\Debug\SimpleChatBySignalR.NETClient.pdb

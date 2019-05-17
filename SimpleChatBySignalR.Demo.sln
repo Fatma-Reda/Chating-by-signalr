@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatBySignalR.Demo", "SimpleChatBySignalR.Demo\SimpleChatBySignalR.Demo.csproj", "{1F13B30B-FE03-4363-9CAE-EF876009CCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatBySignalR.ClientJS", "SimpleChatBySignalR.ClientJS\SimpleChatBySignalR.ClientJS.csproj", "{B52391E3-682F-4265-BA28-0D237A99AB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatBySignalR.NETClient", "SimpleChatBySignalR.NETClient\SimpleChatBySignalR.NETClient.csproj", "{F3EC88E6-6CB0-40CE-A345-A4EDE28F0C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F13B30B-FE03-4363-9CAE-EF876009CCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F13B30B-FE03-4363-9CAE-EF876009CCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F13B30B-FE03-4363-9CAE-EF876009CCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F13B30B-FE03-4363-9CAE-EF876009CCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52391E3-682F-4265-BA28-0D237A99AB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52391E3-682F-4265-BA28-0D237A99AB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52391E3-682F-4265-BA28-0D237A99AB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52391E3-682F-4265-BA28-0D237A99AB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EC88E6-6CB0-40CE-A345-A4EDE28F0C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EC88E6-6CB0-40CE-A345-A4EDE28F0C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EC88E6-6CB0-40CE-A345-A4EDE28F0C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EC88E6-6CB0-40CE-A345-A4EDE28F0C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F31A402-6CA9-4487-A0AF-6377E7613331}
+	EndGlobalSection
+EndGlobal
